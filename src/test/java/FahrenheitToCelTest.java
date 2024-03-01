@@ -17,4 +17,11 @@ public class FahrenheitToCelTest extends TestCase {
         assertEquals(100, FahrenheitToCel.kelvinToCelsius(373.15f), 0.1);
         assertEquals(-100, FahrenheitToCel.kelvinToCelsius(173.15f), 0.1);
     }
+
+    @Test
+    public void testKelvinToFahrenheit() {
+        assertEquals(32, FahrenheitToCel.kelvinToFahrenheit(273.15f), 0.1);
+        assertEquals(212, FahrenheitToCel.kelvinToFahrenheit(373.15f), 0.1);
+        assertEquals(-148, FahrenheitToCel.kelvinToFahrenheit(173.15f), 0.1);
+    }
 }
