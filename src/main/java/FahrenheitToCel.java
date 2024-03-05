@@ -15,8 +15,8 @@ public class FahrenheitToCel {
 
 
     public static void main(String[] args) {
-        System.out.println(convertFahr(100));
-        System.out.println(kelvinToCelsius(100));
-        System.out.println(kelvinToFahrenheit(100));
+        System.out.println("100 Fahrenheit to Celsius: " + convertFahr(100));
+        System.out.println("100 Kelvin to Celsius: " + kelvinToCelsius(100));
+        System.out.println("100 Kelvin to Fahrenheit: " + kelvinToFahrenheit(100));
     }
 }
